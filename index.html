@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>	
+		<meta charset="utf-8">
+		<title>home test</title>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				height: 10120px; 
+            	}
+            .waikuan{
+            	position:relative;
+            }
+            #parallax_area1{ position:fixed; top:0; left:0%; margin-top:0px; z-index:1;background: url(images/home.png) no-repeat center;background-size: 1920px 795px;height: 795px;width: 100%;}
+			#parallax_area2{ position:fixed; top:0; left:0%; margin-top:400px; z-index:6;background: url(images/profile.png) no-repeat center;background-size: 1920px 1700px;width:100%;height: 1700px;}
+			#parallax_area3{ position:fixed; top:0; left:0%; margin-top:495px; z-index:7;background: url(images/huaban.png) no-repeat center;background-size: 1920px 466px;width:100%;height: 466px;}
+			#parallax_area4{ position:fixed; top:0; left:0%; margin-top:1450px; z-index:2; background: url(images/passion.png) no-repeat center;background-size: 1920px 963px; width:100%;height: 963px;}
+			#parallax_area5{ position:fixed; top:0; left:0%; margin-top:2100px; z-index:5;background: url(images/do.png) no-repeat center;background-size: 1920px 1290px;width: 100%;height: 1290px;}
+			#parallax_area6{ position:fixed; top:0; left:0%; margin-top:3550px; z-index:3;background: url(images/skill.png) no-repeat center;background-size: 1920px 826px;width: 100%;height: 826px;}
+			#parallax_area7{ position:fixed; top:0; left:0%; margin-top:3600px; z-index:2;background:url(images/cube-font.png) no-repeat center;background-size: 1920px 633px;width:  100%;height: 633px;}
+			#parallax_area8{ position:fixed; top:0; left:0%; margin-top:3600px; z-index:1;background: #00182a no-repeat center;background-size: 1920px 1800px;width: 100%;height: 1800px;}
+			.works{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			#parallax_area9{ position:fixed; top:0; left:0%; margin-top:4600px; z-index:4;background: url(images/contact.png) no-repeat center;background-size: 1920px 783px;width: 100%;height: 783px;}
+			
+			.waikuan-01{
+				margin: 0 auto;
+				width: 1000px;
+				height: 700px;
+			}
+			.daohang{
+            	float: right ;
+                  }
+			.logo{
+            	float: left;
+                }
+			.toubu{
+				margin: 0 auto;
+                width: 1000px;
+                overflow: hidden;
+			}
+			.daohang li{
+				color: #ffffff;
+				margin-top: 10px;
+            	float:left;
+            	list-style: none;
+            	margin-left: 45px;
+            	font-size: 16px;
+            	letter-spacing: 5px;
+             }
+            .tie{
+            	float: left;
+            	margin-left: 215px;
+            	margin-top: 135px;	
+			}
+			.waikuan-02{
+				margin: 0 auto;
+				width: 1000px;
+				height: 1430px;
+				margin-top: 315px;
+			}
+			.erzuoce{
+				margin-top: 50px;
+				width:15%;
+				float: left;
+			}
+			.age-line-waikuan{
+				height: 40px;
+				width: 110px;
+				margin-top: 260px;
+			}
+			.age{
+				float: left;
+				font-size: 30px;
+				color: #ffffff;
+            	font-weight: bolder;
+			}
+			.age-line{
+				margin-top: 16px;
+				float: right;
+				width: 10px;
+				height: 6px;
+				background: #ffffff;
+			}
+			.line{
+				height: 90px;
+				width: 2px;
+				background: #ffffff;
+			}
+			.interest{
+				margin-top: 164px;			
+			}
+			.erzhong{
+				width:70%;
+				height: 1400px;
+				float: left;
+			}
+			.touxiang{
+				width: 400px;
+				height: 350px;
+				margin-top: 198px;
+				float: left;
+			}
+			.jianjie{
+				margin-left: -20px;
+				width: 300px;
+				height: 350px;
+				color: #ffffff;
+				float: left;
+				margin-top: 198px;
+				list-style: none;
+			}
+			.vcd-zh{
+				height: 23px;
+				color: #ffffff;
+            	letter-spacing: 20px;
+            	font-size: 24px;
+            	font-weight: lighter;
+			}
+			.vcd-eng{
+				margin-top:20px; 
+				text-transform: uppercase;
+				height: 12px;
+				color: #ffffff;
+            	letter-spacing: 1.4px;
+            	font-size: 14px;
+            	font-weight: lighter;
+			}
+			.tkk-zh{
+				margin-top: 48px;
+				height: 17px;
+				color: #ffffff;
+            	letter-spacing: 14px;
+            	font-size: 18px;
+            	font-weight: lighter;
+			}
+			.tkk-eng{
+				margin-top: 21px;
+				text-transform: uppercase;
+				height: 11px;
+				color: #ffffff;
+            	letter-spacing: 0.6px;
+            	font-size: 14px;
+            	font-weight: lighter;
+			}
+			.dmd-zh{
+				margin-top: 48px;
+				height: 16px;
+				color: #ffffff;
+            	letter-spacing: 29px;
+            	font-size: 16px;
+            	font-weight: lighter;
+			}
+			.dmd-eng{
+				margin-top: 16px;
+				text-transform: uppercase;
+				height: 11px;
+				color: #ffffff;
+            	letter-spacing: 3px;
+            	font-size: 14px;
+            	font-weight: lighter;
+			}
+			.name-num-waikuan{
+				width: 240px;
+				margin-top: 42px;
+			}
+			.name-waikuan{
+				float: left;
+				width: 148px;
+			}
+			.name-line-waikuan{
+				height: 35px;
+			}
+			.name-zh{
+				float: left;
+				font-size: 28px;
+				color: #ffffff;
+            	letter-spacing: 16px;
+            	font-weight: lighter;
+			}
+			.name-line{
+				margin-top: 14px;
+				background: #ffffff;
+				width: 16px;
+				height: 5px;
+				float: right;
+			}
+			.name-eng{
+				margin-top: 16px;
+				font-size: 16px;
+				color: #ffffff;
+            	letter-spacing: 3.26322px;
+            	font-weight: lighter;
+			}
+			.num-04{
+				margin-top: 24px;
+				float: right;
+				font-size: 40px;
+			}
+			.eryou{
+				width: 15%;
+				float: right;
+			}
+			.design-rect-waikuan{
+				margin-top: 50px;
+				height: 150px;
+			}
+			.design-rect{
+				margin-top: 120px;
+				margin-left: -30px;
+				float: left;
+				width: 30px;
+				height: 30px;
+				border: 3px solid #e97b00;
+			}
+			.design{				
+				float: right;
+			}
+			.month{
+				margin-left: -70px;
+				margin-top: 316px;
+				height: 45px;
+			}
+			.day-line-waikuan{
+				margin-top: 24px;	
+			}
+			.day{
+				margin-left: -60px;
+				float: left;
+				font-size: 24px;
+				color: #ffffff;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+            	font-weight: lighter;
+			}
+			.linet{
+				margin-top: 22px;
+				height: 2px;
+				width: 95px;
+				background: #ffffff;
+				float: right;
+			}
+			.mp{
+				margin-top: 144px;
+				margin-left: -55px;
+			}			
+			.erzhong-down{
+				margin: 0 auto;
+				width: 1000px;
+				height: 700px;
+				margin-top: 900px;
+			}
+			.fish{
+				float: left;
+				margin-left: 30px;
+			}
+			.tank{
+				margin-top: 0px;
+				margin-left: 80px;
+				font-size: 20px;
+				color: #ffffff;
+				letter-spacing: 22px;
+            	font-weight: lighter;
+			}
+			.camara{
+				float: left;
+				margin-left: 20px;
+				margin-top: 110px;
+			}
+			.sheying{
+				margin-left: 90px;
+				font-size: 20px;
+				color: #ffffff;
+				letter-spacing: 22px;
+            	font-weight: lighter;
+			}
+			.waikuan-05{
+				margin: 0 auto;
+				width: 1000px;
+				height: 890px;
+				margin-top: 340px;
+			}
+			.sanzuoce{
+				float: left;
+				width: 17%;
+				float: left;
+			}
+			.lineth{
+				height: 2px;
+				width: 95px;
+				background: #ffffff;
+			}
+			.what{
+				margin-top: 166px;
+			}
+			.sone{
+				margin-top: 10px;
+				margin-left: 100px;
+			}
+			.linewu{
+				margin-top: 225px;
+				height:90px;
+				width: 2px;
+				background: #ffffff;	
+			}
+			.sanzhong{
+				margin-top: 310px;
+				float: left;
+				width: 66%;
+			}
+			.sanzhong-l{
+				float: left;
+				width: 220px;
+			}
+			.sanzhong-l-up{
+				margin: 0 auto;
+				width: 80px;
+				height: 26px;
+				font-size: 22px;
+				font-weight: normal;
+				color: #ffffff;
+				letter-spacing: 3px;
+			}
+			.sanzhong-l-down{
+				margin: 0 auto;
+				width: 64px;
+				height: 160px;
+				font-size: 14px;
+				font-weight: lighter;
+				color: #ffffff;
+				line-height: 55px;
+				margin-top: 50px;
+				letter-spacing: 2px;
+			}
+			.sanzhong-m{
+				float: left;
+				width: 220px;
+			}
+			.sanzhong-m-up{
+				margin: 0 auto;
+				width: 95px;
+				height: 26px;
+				font-size: 22px;
+				font-weight: normal;
+				color: #ffffff;
+				letter-spacing: 3px;
+			}
+			.sanzhong-m-down{
+				margin: 0 auto;
+				width: 64px;
+				height: 160px;
+				font-size: 14px;
+				font-weight: lighter;
+				color: #ffffff;
+				line-height: 55px;
+				margin-top: 50px;
+				letter-spacing: 2px;
+			}	
+			.sanzhong-r{
+				float: left;
+				width: 220px;
+			}
+			.sanzhong-r-up{
+				margin: 0 auto;
+				width: 135px;
+				height: 26px;
+				font-size: 22px;
+				font-weight: normal;
+				color: #ffffff;
+				letter-spacing: 3px;
+			}
+			.sanzhong-r-down{
+				margin: 0 auto;
+				width: 64px;
+				height: 160px;
+				font-size: 14px;
+				font-weight: lighter;
+				color: #ffffff;
+				line-height: 55px;
+				margin-top: 50px;
+				letter-spacing: 2px;
+			}
+			.sanyouce{
+				float: left;
+				width: 17%;
+			}
+			.linesi{
+				height:90px;
+				width: 2px;
+				background: #ffffff;
+				margin-left: 169px;
+				margin-top: -90px;	
+			}
+			.s-cap{
+				float: left;
+				margin-top: 166px;
+			}
+			.stwo{
+				margin-top: 75px;
+				float: left;	
+				margin-left: 0px;
+			}
+			.cap{
+				float: left;
+				margin-left: 44px;
+			}
+			.s-line{
+				float: left;
+				margin-top: 306px;	
+			}
+			.sthree{	
+				margin-left: 0px;
+				float: left;
+				margin-left: -53px;
+			}
+			.lineliu{
+				float: left;
+				height:2px;
+				width: 95px;
+				background: #ffffff;
+				margin-left: 40px;
+				margin-top: 45px;
+			}
+			.waikuan-06{
+				margin: 0 auto;
+				width: 1000px;
+				height: 700px;
+			}
+			.sizuoce{
+				float: left;
+				width: 15%;
+			}
+			.software{
+				margin-top: 150px;
+			}
+			.lineqi{
+				height:2px;
+				width: 95px;
+				background: #ffffff;
+				margin-top: 315px;	
+			}
+			.sizhong{
+				float: left;
+				width: 70%;
+				margin: 0 auto;
+			}
+			.skill-icon{
+				margin-top: 280px;
+				margin-left: 45px;
+			}
+			.siyouce{
+				float: left;
+				width: 15%;
+			}
+			.skill{
+				margin-top: 150px;
+				margin-left: 5px;
+			}
+			.lineba{
+				height:90px;
+				width: 2px;
+				background: #ffffff;
+				margin-top: 270px;
+				margin-left: 148px;	
+			}
+			.shangmian{
+				margin: 0 auto;
+				width: 1000px;
+				height: 600px;
+				margin-top: 50px;
+			}
+			.wuzuoce{
+				width: 5%;
+				float: left;
+			}
+			.linejiu{
+				height:28px;
+				width: 5px;
+				background: #ffffff;
+				margin-top: 270px;
+			}
+			.wuzhong{
+				width: 90%;
+				float: left;
+			}
+			.work-f{
+				margin: 0 auto;
+				margin-top: 400px;
+				width: 656px;
+			}
+			.web-link{
+				margin: 0 auto;
+				width: 396px;
+				margin-top: 55px;
+			}
+			.web-link li{
+				color: #ffffff;
+            	list-style: none;
+            	text-align: center;
+            	line-height: 40px;
+            	letter-spacing: 3px;
+            	font-size: 16px;
+            	font-weight: lighter;
+			}
+			.rd-rect1{
+				float: left;
+				width: 112px;
+				height: 40px;
+				background: #1c384c;
+				border-radius: 5px;
+				margin-left: -28px;
+			}
+			.rd-rect2{
+				float: left;
+				width: 112px;
+				height: 40px;
+				background: #1c384c;
+				border-radius: 5px;
+				margin-left: 28px;
+			}
+			.rd-rect3{
+				float: left;
+				width: 112px;
+				height: 40px;
+				background: #1c384c;
+				border-radius: 5px;
+				margin-left: 28px;
+			}
+			.wuyouce{
+				width: 5%;
+				float: left;
+			}
+			.lineshi{
+				height: 5px;
+				width: 18px;
+				background: #ffffff;
+				margin-left: 32px;
+			}
+			.lineshiyi{
+				height: 38px;
+				width: 4px;
+				background: #ffffff;
+				margin-left: 46px;
+				margin-top: 309px;
+			}
+			.rect1{
+				width: 19px;
+				height: 19px;
+				border: 3px solid #fc9538;
+				margin-left: 25px;
+				margin-top: 45px;
+			}
+			.waikuan-08{
+				margin: 0 auto;
+				width: 1000px;
+				height: 900px;
+				margin-top: 0px;
+			}
+			.qizuoce{
+				width: 33%;
+				margin-top: 100px;
+				float: left;
+			}
+			.work-l-1{
+				margin-top: 0px;
+			}
+			.work-l-2{
+				margin-top: 18px;
+			}
+			.work-l-3{
+				margin-top: 18px;
+			}
+			.qizhong{
+				width: 34%;
+				margin-top: 80px;
+				float: left;
+			}
+			.work-m-1{
+				margin-top: 0px;
+				margin-left: 10px;
+			}
+			.work-m-2{
+				margin-top: 18px;
+				margin-left: 10px;
+			}.work-m-3-4{
+				margin-top: 18px;
+				margin-left: 10px;
+			}
+			.work-m-3{
+				float: left;
+			}
+			.work-m-4{
+				float: left;
+				margin-left: 12px;
+			}
+			.more-rect{
+				width:320px; 
+				height:90px;
+				margin-left: 10px;
+				margin-top: 280px;
+				background:#1c384c;
+			}
+			.more-font{
+				margin-top: -10px;
+				color: #ffffff;
+				line-height: 90px;
+            	text-align: center;
+            	letter-spacing: 6px;
+            	font-size: 20px;
+            	font-weight: lighter;
+			}
+			.qiyouce{
+				width: 33%;
+				margin-top: 100px;
+				float: left;
+			}
+			.work-r-1{
+				margin-top: 0px;
+				margin-left: 10px;
+			}
+			.work-r-2{
+				margin-top: 18px;
+				margin-left: 10px;
+			}
+			.work-r-3{
+				margin-top: 18px;
+				margin-left: 10px;
+			}
+			.waikuan-09{
+				margin: 0 auto;
+				width: 1000px;
+				height: 624px;
+			}
+			.shang-09{
+				height: 256px;
+			}
+			.contact-me{
+				float: left;
+				margin-top: 96px;
+			}
+			.message{
+				float: right;
+				margin-top: 96px;
+			}
+			.zhong-09{
+				height: 260px;
+			}
+			.zuoce-09{
+				width: 230px;
+				float: left;
+			}
+			.zuoce-09-l{
+				float: left;
+				color: #ffffff;
+            	letter-spacing: 18px;
+            	font-size: 18px;
+            	font-weight: lighter;
+            	margin-left: 85px;
+			}
+			.f-link-1{
+				margin-top: 100px;
+			}
+			.f-link-2{
+				margin-top: 25px;
+			}
+			.f-link-3{
+				margin-top: 25px;
+			}
+			.zuoce-09-m{
+				margin-top: 100px;
+				float: left;
+				width: 10px;
+			}
+			.mid-line-1{
+				margin-top: 11px;
+				width: 10px;
+				height: 3px;
+				background: #ffffff;
+			}
+			.mid-line-2{
+				margin-top: 46px;
+				width: 10px;
+				height: 3px;
+				background: #ffffff;
+			}
+			.mid-line-3{
+				margin-top: 45px;
+				width: 10px;
+				height: 3px;
+				background: #ffffff;
+			}			
+			.lineshier{
+				margin-top: 95px;
+				float: right;
+				background: #ffffff;
+				width: 2px;
+				height: 140px;
+			}
+			.zhongbu-09{
+				float: left;
+				width: 415px;
+			}
+			.zhongbu-09-m-l{
+				float: left;
+				width: 306px;
+				margin-left: 60px;	
+			}
+			.m-09-m-l-up{
+				height: 120px;
+			}
+			.m-09-m-l-up-rect{
+				float: left;
+				margin-top: 100px;
+				width: 14px;
+				height: 14px;
+				border: 3px solid #fc9538;
+			}
+			.m-09-m-l-up-line{
+				float: right;
+				margin-top: 100px;
+				width: 42px;
+				height: 3px;
+				background: #fc9538;
+			}
+			.m-09-m-l-mid{
+				width: 306px;
+				height: 66px;
+				margin-top: 15px;
+			}
+			.ins{
+				float: left;
+			}
+			.wechat{
+				float: left;
+				margin-left: 19px;
+			}
+			.qq{
+				float: left;
+				margin-left: 19px;
+			}
+			.facebook{
+				float: left;
+				margin-left: 19px;
+			}
+			.m-09-m-l-down{
+				height: 120px;
+				margin-top: 15px;
+			}
+			.m-09-m-l-down-rect{
+				float: right;
+				width: 14px;
+				height: 14px;
+				border: 3px solid #fc9538;
+			}
+			.m-09-m-l-down-line{
+				margin-top: 10px;
+				float: left;
+				width: 42px;
+				height: 3px;
+				background: #fc9538;
+			}
+			.lineshisan{
+				margin-top: 95px;
+				float: right;
+				background: #ffffff;
+				width: 2px;
+				height: 140px;
+			}
+			.youce-09{
+				float: left;
+				margin-left: 50px; 
+			}
+			.phone{
+				height: 40px;
+				margin-top: 120px;
+			}
+			.phone-img{
+				float: left;
+			}
+			.phone-num{
+				margin-left: 10px;
+				float: left;
+				color: #ffffff;
+            	letter-spacing: 2.6px;
+            	font-size: 18px;
+            	font-weight: normal;
+			}
+			.email{
+				height: 40px;
+				margin-top: 25px;
+			}
+			.email-img{
+				float: left;
+			}
+			.email-num{
+				margin-left: 10px;
+				float: left;
+				color: #ffffff;
+            	letter-spacing: 0px;
+            	font-size: 18px;
+            	font-weight: lighter;
+			}
+			.xia-09{
+				margin: 0 auto;
+				width: 1000px;
+				height: 112px;
+				margin-top: 80px;
+			}
+			.xia-09-linel{
+				float: left;
+				width: 2px;
+				height: 112px;
+				background: #ffffff;
+			}
+			.xia-09-liner{
+				float: right;
+				width: 112px;
+				height: 2px;
+				background: #ffffff;
+			}
+			.banquan{
+				margin-top:95px;width: 100%;height: 82px;background: #1c384c;background-size: contain;	
+			}
+			.banquan-f{
+				text-align: center;
+				color: #ffffff;
+            	letter-spacing: 1px;
+            	font-size: 14px;
+            	font-weight: lighter;
+            	line-height: 82px;
+			}
+			.tank a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.sheying a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.rd-rect1 a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.rd-rect2 a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.rd-rect3 a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.more-font a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.daohang a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+			.zuoce-09-l a{
+				text-decoration: none;
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="waikuan">
+			<div id="parallax_area1">
+				<div class="waikuan-01" id="zhuye">
+					<div class="toubu">
+       	  	        	<a href="#parallax_area1"><img src="images/logo.png" class="logo" ></a>
+						<ul class="daohang">
+       	  					<li><a href="javascript:void(0);" onclick="naver('zhuye')">首页</a></li>
+       	  					<li><a href="javascript:void(0);" onclick="naver('A')">关于</a></li>
+       	  					<li><a href="javascript:void(0);" onclick="naver('work')">作品</a></li>
+       	  					<li><a href="javascript:void(0);" onclick="naver('contact')">联系</a></li>
+						</ul>
+						<div class="tie">
+							<img src="images/title.png"  >
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div id="parallax_area2"  >				
+				<div class="waikuan-02" id="A">
+					<div class="erzuoce">
+						<img src="images/about me.png">
+						<div class="age-line-waikuan">
+							<div class="age">1996</div>
+							<div class="age-line"></div>
+						</div>
+						<div class="line"></div>
+						<img src="images/interest.png" class="interest">		
+					</div>
+					<div class="erzhong">
+						<div class="erzhong-up">
+							<div class="touxiang"><img src="images/touxiang.png"></div>
+							<div class="jianjie">
+       	  						<div class="vcd-zh">视觉传达设计</div>
+       	  						<div class="vcd-eng">visual communicate design</div>
+       	  						<div class="tkk-zh">厦门大学嘉庚学院</div>
+       	  						<div class="tkk-eng">Xiamen University TKK College</div>
+       	  						<div class="dmd-zh">数字媒体方向</div>
+       	  						<div class="dmd-eng">Digital media direction</div>
+       	  						<div class="name-num-waikuan">
+       	  							<div class="name-waikuan">
+       	  								<div class="name-line-waikuan">
+       	  									<div class="name-zh">曾辉</div>
+       	  									<div class="name-line"></div>
+       	  								</div>
+       	  								<div class="name-eng">Stephen Chien</div>
+       	  							</div>
+       	  							<div class="num-04">04.</div>
+       	  						</div>
+							</div>
+						</div>
+						<div class="erzhong-down">
+							<div  class="fish">
+								<img src="images/fish.png">
+								<div class="tank"><a href="constraction.html" target="_blank">水族</a></div>
+							</div>
+							<div  class="camara">
+								<img src="images/camara.png">
+								<div class="sheying"><a href="constraction.html" target="_blank">摄影</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="eryou">
+						<div class="design-rect-waikuan">
+							<div class="design-rect"></div>
+							<img src="images/design.png" class="design">
+						</div>
+						<img src="images/month.png" class="month">
+						<div class="day-line-waikuan">
+							<div class="day">02.day</div>
+							<div class="linet"></div>
+						</div>						
+						<img src="images/my passion.png" class="mp">
+					</div>
+				</div>			
+			</div>
+			<div id="parallax_area3"></div>
+			<div id="parallax_area4">
+				
+			</div>
+			<div id="parallax_area5">
+				<div class="waikuan-05">
+					<div class="sanzuoce">
+						<div class="lineth"></div>
+						<img src="images/what i do.png" class="what">
+						<img src="images/shape 1.png" class="sone">
+						<div class="linewu"></div>
+					</div>
+					<div class="sanzhong">
+						<div class="sanzhong-l">
+							<div class="sanzhong-l-up">UI设计</div>
+							<div class="sanzhong-l-down">
+								界面视觉</br>
+								用户体验</br>
+								交互设计</br>
+							</div>
+						</div>
+						<div class="sanzhong-m">
+							<div class="sanzhong-m-up">MG动画</div>
+							<div class="sanzhong-m-down">
+								视频后期</br>
+								动态影像</br>
+								动效设计</br>
+							</div>
+						</div>
+						<div class="sanzhong-r">
+							<div class="sanzhong-r-up">Illustrator</div>
+							<div class="sanzhong-r-down">
+								视频后期</br>
+								动态影像</br>
+								动效设计</br>
+							</div>
+						</div>
+					</div>
+					<div class="sanyouce">
+						<div class="linesi"></div>
+						<div class="s-cap">
+							<img src="images/shape 2.png" class="stwo">
+							<img src="images/capability.png" class="cap">
+						</div>
+						<div class="s-line">
+							<img src="images/shape 3.png" class="sthree">
+							<div class="lineliu"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="parallax_area6">
+				<div class="waikuan-06">
+					<div class="sizuoce">
+						<img src="images/software.png" class="software">
+						<div class="lineqi"></div>
+					</div>
+					<div class="sizhong">
+						<img src="images/skill icon.png" class="skill-icon">
+					</div>
+					<div class="siyouce">
+						<img src="images/my skill.png" class="skill">
+						<div class="lineba"></div>
+					</div>
+				</div>
+			</div>
+			<div id="parallax_area7">
+				<div class="shangmian">
+					<div class="wuzuoce">
+						<img src="images/85zenghui.png">
+						<div class="linejiu"></div>
+					</div>
+					<div class="wuzhong">				
+						<div class="work-f"><img src="images/work-line.png"></div>
+						<ul class="web-link">
+							<li class="rd-rect1"><a href="https://www.behance.net/85zenghui96b2" target="_blank">behance</a></li>
+							<li class="rd-rect2"><a href="http://www.zcool.com.cn/u/16544760" target="_blank">站酷</a></li>
+							<li class="rd-rect3"><a href="https://dribbble.com/zenghui" target="_blank">drrrible</a></li>
+						</ul>					
+					</div>
+					<div class="wuyouce">
+						<div class="lineshi"></div>
+						<div class="lineshiyi"></div>
+						<div class="rect1"></div>
+					</div>
+				</div>
+			</div>
+			<div id="parallax_area8" >
+				<div class="waikuan-08" id="work">
+					<div class="qizuoce">
+						<a href="lowpoly.html" target="_blank"><img src="images/work-l-1.png" class="work-l-1"></a>
+						<img src="images/work-l-2.png" class="work-l-2">
+						<a href="logo animation.html" target="_blank"><img src="images/work-l-3.png" class="work-l-3"></a>
+
+					</div>
+					<div class="qizhong">
+						<img src="images/work-m-1.png" class="work-m-1">
+						<img src="images/work-m-2.png" class="work-m-2">
+						<div class="work-m-3-4">
+							<img src="images/work-m-3.png" class="work-m-3">
+							<img src="images/work-m-4.png" class="work-m-4">
+						</div>
+						<div class="more-rect">
+							<div class="more-font"><a href="constraction.html" target="_blank">MORE</a></div>							
+						</div>
+					</div>
+					<div class="qiyouce">
+						<a href="fantasy.html" target="_blank"><img src="images/work-r-1.png" class="work-r-1"></a>
+						<img src="images/work-r-2.png" class="work-r-2">
+						<a href="3d marco-x.html" target="_blank"><img src="images/work-r-3.png" class="work-r-3"></a>
+					</div>
+				</div>
+			</div>
+			<div id="parallax_area9">
+				<div class="waikuan-09">
+					<div class="shang-09">
+						<img src="images/contact me.png" class="contact-me">
+						<img src="images/message.png" class="message">
+					</div>
+					<div class="zhong-09" id="contact">
+						<div class="zuoce-09">
+							<div class="zuoce-09-l">
+								<div class="f-link-1"><a href="javascript:void(0);" onclick="naver('zhuye')">主页</a></div>
+								<div class="f-link-2"><a href="javascript:void(0);" onclick="naver('A')">关于</a></div>
+								<div class="f-link-3"><a href="#parallax_area1">微博</a></div>							
+							</div>
+							<div class="zuoce-09-m">
+								<div class="mid-line-1"></div>
+								<div class="mid-line-2"></div>
+								<div class="mid-line-3"></div>
+							</div>
+							<div class="lineshier"></div>
+						</div>
+						<div class="zhongbu-09">
+							<div class="zhongbu-09-m-l">
+								<div class="m-09-m-l-up">
+									<div class="m-09-m-l-up-rect"></div>
+									<div class="m-09-m-l-up-line"></div>
+								</div>
+								<div class="m-09-m-l-mid">
+									<img src="images/in.png" class="ins">
+									<img src="images/wechat.png" class="wechat">
+									<img src="images/qq.png" class="qq">
+									<img src="images/facebook.png" class="facebook">
+								</div>
+								<div class="m-09-m-l-down">
+									<div class="m-09-m-l-down-rect"></div>
+									<div class="m-09-m-l-down-line"></div>
+								</div>
+							</div>
+							<div class="lineshisan"></div>
+						</div>
+						<div class="youce-09">
+							<div class="phone">
+								<img src="images/telephone.png" class="phone-img">
+								<div class="phone-num">+86 18750399435</div>
+							</div>
+							<div class="email">
+								<img src="images/email.png" class="email-img">
+								<div class="email-num">18750399435@163.com</div>
+							</div>							
+						</div>
+					</div>
+					<div class="xia-09">
+						<div class="xia-09-linel"></div>
+						<div class="xia-09-liner"></div>
+					</div>	
+				</div>
+				<div class="banquan">
+					<div class="banquan-f">Copyright © 2017 85ZengHui, All Rights Reserved</div>
+				</div>
+			</div>			
+		</div>	
+		<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrolling-parallax.js"></script>
+
+<script type="text/javascript">
+
+$(function() {
+  $(window).scroll(function(){
+    var scrolled = $(this).scrollTop();
+    $('#parallax_area1').css('top',(0-(scrolled*.1))+'px');
+    $('#parallax_area2').css('top',(0-(scrolled*.500))+'px');
+	$('#parallax_area3').css('top',(0-(scrolled*.560))+'px');
+	$('#parallax_area4').css('top',(0-(scrolled*.550))+'px');
+	$('#parallax_area5').css('top',(0-(scrolled*.600))+'px');
+	$('#parallax_area6').css('top',(0-(scrolled*.680))+'px');
+	$('#parallax_area7').css('top',(0-(scrolled*.580))+'px');
+	$('#parallax_area8').css('top',(0-(scrolled*.500))+'px');
+	$('#parallax_area9').css('top',(0-(scrolled*.500))+'px');
+  });
+});
+</script>
+<script>
+//设置锚点
+function naver(id){
+  var obj = document.getElementById(id);
+  var oPos = obj.offsetTop;
+  return window.scrollTo(0, oPos-36);
+}
+</script>
+	</body>
+</html>
